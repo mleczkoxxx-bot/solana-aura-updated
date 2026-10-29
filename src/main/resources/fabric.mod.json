@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "solanaaura",
+  "version": "${version}",
+  "name": "Solana Aura",
+  "description": "Fioletowa smuga za graczem i orbitujące logo Solany wokół niego.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.solanaaura.SolanaAuraClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
